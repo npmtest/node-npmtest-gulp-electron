@@ -1,6 +1,6 @@
 # npmtest-gulp-electron
 
-#### basic test coverage for  gulp-electron (v0.1.3)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-electron.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-electron) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-electron.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-electron)
+#### basic test coverage for  [gulp-electron (v0.1.3)](https://github.com/mainyaa/gulp-electron#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-electron.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-electron) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-electron.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-electron)
 
 #### A gulp plugin for Electron distribute applications.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-electron/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-electron/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-electron/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-electron/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-electron/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-electron/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-electron/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-electron/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-electron/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-electron/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-electron/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-electron/build/coverage.html/index.html)
 
@@ -35,31 +35,11 @@
 ```json
 
 {
-    "name": "gulp-electron",
-    "version": "0.1.3",
-    "description": "A gulp plugin for Electron distribute applications.",
-    "main": "index.js",
-    "scripts": {
-        "test": "gulp mocha && cd example && gulp"
+    "author": {
+        "name": "mainya@gmail.com"
     },
-    "keywords": [
-        "gulp",
-        "gulplugin",
-        "atom-shell",
-        "electron"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/mainyaa/gulp-electron.git"
-    },
-    "author": "mainya@gmail.com",
-    "license": "MIT",
-    "devDependencies": {
-        "gulp": "^3.9.1",
-        "gulp-coffee": "^2.3.2",
-        "gulp-coffeelint": "^0.6.0",
-        "gulp-mocha": "^2.2.0",
-        "should": "^8.3.0"
+    "bugs": {
+        "url": "https://github.com/mainyaa/gulp-electron/issues"
     },
     "dependencies": {
         "asar": "^0.10.0",
@@ -79,7 +59,46 @@
         "should": "^8.3.1",
         "through2": "^2.0.1",
         "vinyl": "^1.1.1"
-    }
+    },
+    "description": "A gulp plugin for Electron distribute applications.",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-coffee": "^2.3.2",
+        "gulp-coffeelint": "^0.6.0",
+        "gulp-mocha": "^2.2.0",
+        "should": "^8.3.0"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "709fa13e06b61f1aeea34c01de661932c6dbb3fd",
+        "tarball": "https://registry.npmjs.org/gulp-electron/-/gulp-electron-0.1.3.tgz"
+    },
+    "gitHead": "0e4d5e68cd358438611c3be56a57b207119c77ec",
+    "homepage": "https://github.com/mainyaa/gulp-electron#readme",
+    "keywords": [
+        "gulp",
+        "gulplugin",
+        "atom-shell",
+        "electron"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "mainya"
+        }
+    ],
+    "name": "gulp-electron",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/mainyaa/gulp-electron.git"
+    },
+    "scripts": {
+        "test": "gulp mocha && cd example && gulp"
+    },
+    "version": "0.1.3",
+    "bin": {}
 }
 ```
 
